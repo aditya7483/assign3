@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import List from './components/List';
 import Spinner from './components/Spinner';
 import UserInfo from './components/UserInfo';
+import './App.css'
 
 export default function App() {
   const [userData, setUserData] = useState([]);
